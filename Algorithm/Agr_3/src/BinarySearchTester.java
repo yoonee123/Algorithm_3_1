@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BinarySearchTester {
+public class BinarySearchTester { // 정렬되어 있어야하고 자바 제공 기본 라이브러리리
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
 
@@ -31,7 +31,7 @@ public class BinarySearchTester {
         // 배열 x에서 값이 ky인 요소를 검색
         int idx = Arrays.binarySearch(x, ky);
 
-        if (idx < 0)
+        if (idx < 0) // 값이 없다면 정적 메서드가 0을 리턴함
             System.out.println("그 값의 요소가 없습니다.");
         else
             System.out.println("그 값은 x[" + idx + "]에 있습니다.");

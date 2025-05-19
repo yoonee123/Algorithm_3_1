@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class SeqSearch {
-    static int SeqSearch(int [] a, int n, int key) {
+    static int SeqSearch(int [] a, int n, int key) { // 정렬 필요 없고 느리지만 단순함
         // int i = 0;
 
         // while (true)
